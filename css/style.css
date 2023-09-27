@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    width: 100%;
+    height: 100%;
+} */
+
+
+.skincare{
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+
+.skincare h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#818181, #a9430c);
+    background-clip:content-box;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+
+
+.skincare div{
+    background-color: white;
+    width: 30%;
+    height: 50vh;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+
+
+
+.skincare img{
+    width: 60%;
+    height: 40vh;
+}
