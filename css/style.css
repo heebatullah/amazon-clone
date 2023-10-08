@@ -14,7 +14,7 @@
     height: 115vh;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-evenly;
     background-color: whitesmoke;
 }
@@ -38,6 +38,9 @@
     border-radius: 20px;
     text-align: center;
     margin-top: 30px;
+    cursor:pointer ;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
     
 }
 
@@ -47,4 +50,69 @@
 .skincare img{
     width: 60%;
     height: 40vh;
+}
+
+
+
+@media(max-width:820px){
+    
+    .skincare{
+        height: max-content;
+        justify-content: space-evenly;
+        /* margin-left: 20px; */
+        
+
+    }
+    .skincare div{
+        width: 45%;
+        height: 40vh;
+        
+        
+    }
+    .skincare h3{
+        font-size: 23px;
+    }
+    .skincare h4{
+        font-size: 20px;
+    }
+    .skincare p{
+        font-size: 20px;
+    }
+    .skincare img{
+        width: 70%;
+        height: 30vh;
+    }
+}
+
+@media(max-width:600px){
+    
+    .skincare{
+        height: max-content;
+        justify-content: space-evenly;
+        /* margin-left: 20px; */
+        
+
+    }
+    .skincare h1{
+        font-size: 28px;
+    }
+    .skincare div{
+        width: 90%;
+        height: 60vh;
+        
+        
+    }
+    .skincare h3{
+        font-size: 15px;
+    }
+    .skincare h4{
+        font-size: 15px;
+    }
+    .skincare p{
+        font-size: 15px;
+    }
+    .skincare img{
+        width: 50%;
+        height: 30vh;
+    }
 }
